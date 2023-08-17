@@ -1,3 +1,5 @@
+
+
 public class Mars {
     public static void main(String[] args) throws InterruptedException {
         String colonyName = "Greenville";
@@ -17,6 +19,9 @@ public class Mars {
         }
 
         landing =  landingCheck(10);
+        new GuessingGame();
+        new MarsExpedition();
+        new FindingsList();
     }
     public static boolean landingCheck(int minutesLeft) throws InterruptedException {
         for(int minute = 0; minute < minutesLeft; minute++){
