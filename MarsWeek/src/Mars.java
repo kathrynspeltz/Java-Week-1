@@ -24,7 +24,7 @@ public class Mars {
         new FindingsList();
     }
     public static boolean landingCheck(int minutesLeft) throws InterruptedException {
-        for(int minute = 0; minute < minutesLeft; minute++){
+        for(int minute = 0; minute <= minutesLeft; minute++){
             if (minute % 2 == 0 && minute % 3 == 0) {
                 System.out.println("Keep center");
             } else if (minute % 2 == 0) {

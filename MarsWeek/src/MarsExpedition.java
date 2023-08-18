@@ -25,7 +25,7 @@ public class MarsExpedition {
             int teamSize = input.nextInt();
             input.nextLine();
             if (teamSize > 2) {
-                System.out.println("That’s way to many people. We can only send 2 more members.");
+                System.out.println("That’s way too many people. We can only send 2 more members.");
                 teamSize = 2;
             } else if (teamSize == 2) {
                 System.out.println("That is the exact size you need!");

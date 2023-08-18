@@ -26,7 +26,7 @@ public class FindingsList {
         fossils.put("Tooth", "The tooth from an unknown fossil");
         System.out.println("Fossil data downloaded");
 
-        System.out.println("Which of the fossils would you like to learn more about? (Bird, Fish, or Tooth)");
+        System.out.println("Which of the fossils would you like to learn more about? (Type one of the following: Bird, Fish, or Tooth)");
         Scanner input = new Scanner(System.in);
         String fossilChoice = input.nextLine();
         String fossilChoiceDesc = fossils.get(fossilChoice);
